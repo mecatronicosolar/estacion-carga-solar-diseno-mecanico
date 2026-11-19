@@ -19,9 +19,9 @@ Cada estación tiene dos carpetas: **Estructura** y **Gabinete**. La carpeta **G
 
 ## Vista de la estación de 800 W
 
-![Vista del modelo de 800 W](Im%C3%A1genes/estacion-800w.png)
+![Estación de 800 W: vista general, frontal y detalle del gabinete](Im%C3%A1genes/estacion-800w.png)
 
-Miniatura original extraída del ensamblaje SOLIDWORKS. La entrega no incluye imágenes independientes de las otras estaciones.
+Vista general, vista frontal y detalle interior del gabinete de la estación de **800 W**.
 
 ## Cómo abrir los modelos
 
