@@ -1,47 +1,36 @@
 # Estación de carga solar — Diseño mecánico
 
-![Familia de diseños mecánicos](docs/imagenes/portada.svg)
+![Diseños de las estaciones de carga solar](Im%C3%A1genes/portada.svg)
 
-Repositorio de los diseños mecánicos de estaciones de carga solar. Incluye las cuatro variantes identificadas en la entrega original, sus piezas, ensamblajes, gabinetes y archivos ZIP internos.
+Diseños mecánicos de las estaciones de **800 W, 3,7 kW, 7 kW y 11 kW**, con sus estructuras, gabinetes, piezas y ensamblajes de SOLIDWORKS.
 
-Las denominaciones de potencia se conservan como identificadores de los diseños; no constituyen una verificación de la potencia eléctrica de carga.
+## Diseños
 
-## Vista del modelo de 800 W
+Cada estación tiene dos carpetas: **Estructura** y **Gabinete**. La carpeta **Gabinete general** reúne los componentes compartidos.
 
-![Miniatura original del ensamblaje de 800 W](docs/imagenes/Carport_800WCompleto_FINALISIMO-0.png)
+| Estación | Ensamblaje principal | Gabinete |
+| --- | --- | --- |
+| [800 W](Dise%C3%B1os/800%20W/) | [Abrir ensamblaje](Dise%C3%B1os/800%20W/Estructura/Carport_800WCompleto_FINALISIMO.SLDASM) | [Ver piezas](Dise%C3%B1os/800%20W/Gabinete/) |
+| [3,7 kW](Dise%C3%B1os/3%2C7%20kW/) | [Abrir ensamblaje](Dise%C3%B1os/3%2C7%20kW/Estructura/Carport_3k7W.SLDASM) | [Ver piezas](Dise%C3%B1os/3%2C7%20kW/Gabinete/) |
+| [7 kW](Dise%C3%B1os/7%20kW/) | [Abrir ensamblaje](Dise%C3%B1os/7%20kW/Estructura/Estacion_7kW%20con%20Gabinete.SLDASM) | [Ver piezas](Dise%C3%B1os/7%20kW/Gabinete/) |
+| [11 kW](Dise%C3%B1os/11%20kW/) | [Abrir ensamblaje](Dise%C3%B1os/11%20kW/Estructura/Estacion_11kW%20con%20Gabinete.SLDASM) | [Ver piezas](Dise%C3%B1os/11%20kW/Gabinete/) |
 
-Vista previa extraída del propio archivo SOLIDWORKS (145 × 105 píxeles). La entrega no incluye renders independientes de las otras variantes.
+[Ver gabinete general](Dise%C3%B1os/Gabinete%20general/)
 
-## Abrir los diseños
+## Vista de la estación de 800 W
 
-| Variante | Ensamblaje principal |
-| --- | --- |
-| 800 W | [Carport_800WCompleto_FINALISIMO.SLDASM](disenos/Dise%C3%B1o%20CAD%20Estaciones%20de%20Carga/800WfinalFinalisimo/800WfinalFinalisimo/Carport_800WCompleto_FINALISIMO.SLDASM) |
-| 3,7 kW | [Carport_3k7W.SLDASM](disenos/Dise%C3%B1o%20CAD%20Estaciones%20de%20Carga/3.7k%20Final/3.7k%20Final/Carport_3k7W.SLDASM) |
-| 7 kW | [Estacion_7kW con Gabinete.SLDASM](disenos/Dise%C3%B1o%20CAD%20Estaciones%20de%20Carga/7k%20Final/7k%20Final/Estacion_7kW%20con%20Gabinete.SLDASM) |
-| 11 kW | [Estacion_11kW con Gabinete.SLDASM](disenos/Dise%C3%B1o%20CAD%20Estaciones%20de%20Carga/11k%20final/11k%20final/Estacion_11kW%20con%20Gabinete.SLDASM) |
+![Vista del modelo de 800 W](Im%C3%A1genes/estacion-800w.png)
 
-1. Descarga o clona el repositorio completo. El ZIP original, incluidos los cuatro ZIP internos, está disponible en [la versión de entrega](https://github.com/mecatronicosolar/estacion-carga-solar-diseno-mecanico/releases/tag/cad-2026-11-19).
-2. Conserva la estructura de carpetas y abre el ensamblaje principal en una versión compatible de SOLIDWORKS.
-3. Si SOLIDWORKS solicita componentes, busca en la carpeta de la variante, su gabinete y `Gabinete General`. La resolución de referencias debe comprobarse en SOLIDWORKS.
+Miniatura original extraída del ensamblaje SOLIDWORKS. La entrega no incluye imágenes independientes de las otras estaciones.
 
-## Contenido
+## Cómo abrir los modelos
 
-- [Diseños CAD originales](disenos/): 418 archivos CAD extraídos del ZIP entregado, con sus nombres y rutas conservados.
-- [Gabinete general](disenos/Dise%C3%B1o%20CAD%20Estaciones%20de%20Carga/Gabinete%20General/): piezas compartidas del gabinete y conector.
-- [Inventario de archivos](docs/inventario.csv): ruta, tamaño y huella SHA-256 para verificar la integridad.
-- [Imágenes](docs/imagenes/): portada de documentación y miniatura original del ensamblaje.
+1. Descarga el repositorio completo y descomprime el contenido.
+2. Abre el ensamblaje principal de la estación en una versión compatible de SOLIDWORKS.
+3. Si solicita localizar componentes, busca en **Estructura**, **Gabinete** y **Gabinete general**. Las carpetas se reorganizaron para facilitar la navegación; los nombres y el contenido de los archivos CAD se conservaron.
 
-### Formatos y versiones
+## Descarga original
 
-La entrega contiene **385 piezas `.SLDPRT`, 33 ensamblajes `.SLDASM` y 4 ZIP internos**, además de las carpetas originales. Los ZIP internos se conservan dentro de la descarga original: pueden representar estados anteriores del diseño.
+El [ZIP original completo](https://github.com/mecatronicosolar/estacion-carga-solar-diseno-mecanico/releases/tag/cad-2026-11-19) está disponible en **Releases** e incluye los cuatro ZIP internos y la estructura de carpetas original.
 
-El nombre `Estacion_11kW_Completa.step.SLDASM` corresponde a un archivo `.SLDASM`; no se incluye un archivo STEP independiente. No se recibieron planos PDF ni archivos `.SLDDRW`.
-
-## Entrega original y archivos grandes
-
-El [ZIP original completo](https://github.com/mecatronicosolar/estacion-carga-solar-diseno-mecanico/releases/tag/cad-2026-11-19) se conserva como archivo adjunto de la versión `cad-2026-11-19`. Incluye los cuatro ZIP internos sin modificaciones. Los 418 archivos CAD extraídos se publican directamente en las carpetas del repositorio.
-
-## Estado de la entrega
-
-Se verificó la integridad de la extracción frente al ZIP recibido. No se han validado apertura, referencias de ensamblaje, interferencias, materiales ni cálculos estructurales en SOLIDWORKS. Algunos componentes incluyen `CONCEPTUAL` o `ENSAYO` en su nombre; se conservan tal como fueron entregados.
+El repositorio contiene **385 piezas `.SLDPRT` y 33 ensamblajes `.SLDASM`**. Las potencias identifican las variantes de la entrega. La apertura y las referencias de los ensamblajes deben comprobarse en SOLIDWORKS.
