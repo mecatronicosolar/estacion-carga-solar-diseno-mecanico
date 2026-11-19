@@ -23,6 +23,12 @@ Cada estación tiene dos carpetas: **Estructura** y **Gabinete**. La carpeta **G
 
 Vista general, vista frontal y detalle interior del gabinete de la estación de **800 W**.
 
+## Vista de la estación de 3,7 kW
+
+![Estación de 3,7 kW: vista general, frontal y detalle del gabinete](Im%C3%A1genes/estacion-3-7kw.png)
+
+Vista general, vista frontal y detalle interior del gabinete de la estación de **3,7 kW**.
+
 ## Cómo abrir los modelos
 
 1. Descarga el repositorio completo y descomprime el contenido.
