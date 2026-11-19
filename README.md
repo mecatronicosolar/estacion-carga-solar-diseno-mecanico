@@ -29,6 +29,12 @@ Vista general, vista frontal y detalle interior del gabinete de la estación de 
 
 Vista general, vista frontal y detalle interior del gabinete de la estación de **3,7 kW**.
 
+## Vista de la estación de 7 kW
+
+![Estación de 7 kW: vista general, frontal y detalle del gabinete](Im%C3%A1genes/estacion-7kw.png)
+
+Vista general, vista frontal y detalle interior del gabinete de la estación de **7 kW**.
+
 ## Cómo abrir los modelos
 
 1. Descarga el repositorio completo y descomprime el contenido.
